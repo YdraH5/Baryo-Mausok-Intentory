@@ -1,0 +1,10 @@
+**Database Name: inventory_system**
+
+Username: Hardy123
+Password: Hardy123
+
+Username: admin
+Password: admin
+
+
+

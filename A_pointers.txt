@@ -1,0 +1,48 @@
+DASHBOARD	- USERS: shows how many admin accounts are registered
+		- CATEGORIES: number of categories saved
+		- PRODUCTS : number of products selling
+		- SALES: total number of purchase transaction
+		
+		- BEST SELLER is limited to show upto 10 items
+		- RECENT SALE is limited to 5 
+		- LOW STOCKS while products quantity is lessthan 10
+
+USER MANAGEMENT - manage all admin accounts
+		- see last logged in
+		- add admin account
+
+CATEGORIES	- add new categorie and nicotine level
+		- edit delete categorie
+		- can't enter existing category name and nicotine level in the 		database 
+		-show error message if categories already exist in database
+		-monitor cateogories
+
+PRODUCTS
+	-MANAGE PRODUCTS
+		-monitor all available products
+		-edit or deletion of products
+		-will ask verification on deleting
+		-add new products button
+	-ADDING NEW PRODUCTS
+		-form to fillup
+		-have a condition where can't enter the same product name and 			same categories that already in the database.
+		-show error message if products already exist in database
+
+STOCKS		
+	-RESTOCK HISTORY	
+		-show restock history like date,supplier name,available 			stocks,and stocks added
+		-edit and delete button
+		-will ask verification on deleting
+		-button to restock item
+	STOCK MONITORING
+		-Show paroducts stock information
+		-text box to input restock quantity and suppliers name
+		-condtions if availables stocks is less or equal to 10 text 			color is red
+		=if stocks is less than 15 text color is yellow
+		= if stocks is greter than 15 then it's black
+PROFILE		
+	SETTINGS
+		-update current user information(profile pic,name,username,and 			changing password)
+
+LOGOUT		-will ask verification on logging out
+		
